@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import joblib
 
-# Load the saved model and scaler
+# Load the saved  model and scaler
 rf_model = joblib.load('model.pkl')
 scaler = joblib.load('scaler.pkl')
 
